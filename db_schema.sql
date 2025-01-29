@@ -1,4 +1,4 @@
-
+-- To create the database, schema, and warehouses. 
 
 -- use sysadmin role.
 use role sysadmin;

@@ -1,2 +1,2 @@
 # airquality-pipeline
-Creating a data pipeline to eventually display useful air quality metrics by using a host of data engineering tools.
+In this project, I build a data pipeline to process air quality data and then visualize it in a dashboard. First, I extracted JSON files from a government data website. They are then ingested into Snowflake's raw layer. We then copy JSON data into Snowflake's tables, clean and transform them, design star schema models and then finally create a dashboard using Streamlit within Snowflake.

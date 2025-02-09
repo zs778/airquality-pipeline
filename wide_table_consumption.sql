@@ -103,10 +103,6 @@ select
         as aqi
     from dev_db.clean_sch.clean_flatten_aqi_dt;
 
---
--- for missing data ..we can use lead or lag approach to fill the missing value
--- and that generally is done if we have some data scince workload.
--- for us, it is pure reporting, so we don't need to worry about.
 
 
 with step01_time_hierarchy_cte as (
